@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Fetch API</title>
+    </head>
+    <body>
+        <script>
+            fetch('https://reqres.in/api/users/24', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: 'User 1'
+                })
+            })
+                .then(res => {
+                    return res.json();
+                })
+                .then( data => console.log(data))
+                .catch(error => console.log(error))
+        </script>
+    </body>
+</html>
