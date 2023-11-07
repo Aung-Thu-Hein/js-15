@@ -1,4 +1,4 @@
-# Basic JavaScript Projects
+# Vanilla JavaScript Projects
 
 - I made myself as a confident JavaScript developer, so I learned JavaScript from scratch and
   build some basic projects, including DOM API, LocalStorage, Fetch API and CSS Variable etc.
